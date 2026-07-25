@@ -26,6 +26,15 @@
       "title": "Coloring",
       "image": "/uploads/pinterest-pin-free.png",
       "file": "/uploads/coloring-pinterest-pin.pdf"
+    },
+    {
+      "meta": "8.5×11 · single-page PDF",
+      "button_label": "Download PDF",
+      "accent": "berry",
+      "title": "Painting",
+      "price": "0",
+      "image": "/uploads/pinterest-pin-free.png",
+      "file": "/uploads/coloring-pinterest-pin.pdf"
     }
   ]
 }
