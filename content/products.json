@@ -19,6 +19,15 @@
       "file": "",
       "button_label": "Coming soon",
       "accent": "sky"
+    },
+    {
+      "meta": "8.5×11 · single-page PDF",
+      "button_label": "Download PDF",
+      "accent": "berry",
+      "title": "Coloring",
+      "file": "/uploads/vocabulary-building-pages-1-.pdf",
+      "price": "0",
+      "badge": "Free sample"
     }
   ]
 }
