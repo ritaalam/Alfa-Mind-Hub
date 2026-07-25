@@ -1,0 +1,57 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Where uploaded images and PDFs are stored
+media_folder: "uploads"
+public_folder: "/uploads"
+
+publish_mode: simple
+
+collections:
+  - name: "products"
+    label: "Coloring Pages"
+    files:
+      - name: "products"
+        label: "Coloring Pages List"
+        file: "content/products.json"
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Size / format note", name: "meta", widget: "string", default: "8.5×11 · single-page PDF" }
+              - { label: "Price (leave blank if not for sale yet)", name: "price", widget: "string", required: false }
+              - { label: "Badge (e.g. 'free sample', leave blank for none)", name: "badge", widget: "string", required: false }
+              - { label: "Thumbnail image", name: "image", widget: "image", required: false, media_library: { config: { multiple: false } } }
+              - { label: "PDF file", name: "file", widget: "file", required: false }
+              - { label: "Button text", name: "button_label", widget: "string", default: "Download PDF" }
+              - label: "Card color"
+                name: "accent"
+                widget: "select"
+                default: "berry"
+                options:
+                  - { label: "Berry pink", value: "berry" }
+                  - { label: "Sky blue", value: "sky" }
+                  - { label: "Sunshine yellow", value: "sunshine" }
+                  - { label: "Meadow green", value: "meadow" }
+
+  - name: "settings"
+    label: "Site Text"
+    files:
+      - name: "settings"
+        label: "Homepage Text"
+        file: "content/settings.json"
+        fields:
+          - { label: "Hero eyebrow (small handwritten line)", name: "hero_eyebrow", widget: "string" }
+          - { label: "Headline — line 1", name: "hero_title_line1", widget: "string" }
+          - { label: "Headline — highlighted words", name: "hero_title_emphasis", widget: "string" }
+          - { label: "Headline — line 2", name: "hero_title_line2", widget: "string" }
+          - { label: "Subheadline", name: "hero_subtitle", widget: "text" }
+          - { label: "Pinterest URL", name: "pinterest_url", widget: "string" }
+          - { label: "Shop note", name: "shop_note", widget: "string" }
+          - { label: "About — handwritten line", name: "about_mark", widget: "string" }
+          - { label: "About — title", name: "about_title", widget: "string" }
+          - { label: "About — body text", name: "about_body", widget: "text" }
