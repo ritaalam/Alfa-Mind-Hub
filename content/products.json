@@ -14,16 +14,8 @@
       "meta": "8.5×11 · single-page PDF",
       "button_label": "Download PDF",
       "accent": "berry",
-      "title": "Coloring",
-      "file": "/uploads/vocabulary-building-pages-1-.pdf",
+      "title": "Painting",
       "price": "0",
-      "badge": "Free sample"
-    },
-    {
-      "meta": "A4 (210 × 297 mm), PDF, 300 DPI, Print Ready.",
-      "button_label": "Download PDF",
-      "accent": "berry",
-      "title": "Coloring",
       "image": "/uploads/pinterest-pin-free.png",
       "file": "/uploads/coloring-pinterest-pin.pdf"
     },
@@ -31,10 +23,10 @@
       "meta": "8.5×11 · single-page PDF",
       "button_label": "Download PDF",
       "accent": "berry",
-      "title": "Painting",
-      "price": "0",
-      "image": "/uploads/pinterest-pin-free.png",
-      "file": "/uploads/coloring-pinterest-pin.pdf"
+      "title": "Farm and farmer",
+      "price": "Free",
+      "image": "/uploads/pinterest-pin-free-1-.png",
+      "file": "/uploads/self-esteem-pinterest-pin-15-ways-2-.pdf"
     }
   ]
 }
