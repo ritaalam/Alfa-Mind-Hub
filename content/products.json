@@ -1,16 +1,6 @@
 {
   "products": [
     {
-      "title": "Wildflower Wreath",
-      "meta": "8.5×11 · single-page PDF",
-      "price": "Free",
-      "badge": "free sample",
-      "image": "/uploads/wildflower-wreath-thumb.jpg",
-      "file": "/uploads/wildflower-wreath-sample.pdf",
-      "button_label": "Download PDF",
-      "accent": "berry"
-    },
-    {
       "title": "More designs coming soon",
       "meta": "New pages added regularly",
       "price": "",
@@ -28,6 +18,13 @@
       "file": "/uploads/vocabulary-building-pages-1-.pdf",
       "price": "0",
       "badge": "Free sample"
+    },
+    {
+      "meta": "A4 (210 × 297 mm), PDF, 300 DPI, Print Ready.",
+      "button_label": "Download PDF",
+      "accent": "berry",
+      "title": "Coloring",
+      "image": "/uploads/free-printable-coloring-page-for-preschoolers-inspired-by-martine-à-la-mer_-a-smiling-little-girl-at-the-beach-with-a-bucket-and-spade-one-simple-sandcastle-a-few-seashells-gentle-waves-and-one-seagull-in-t-1-.jpg"
     }
   ]
 }
