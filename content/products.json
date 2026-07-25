@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "title": "Wildflower Wreath",
+      "meta": "8.5×11 · single-page PDF",
+      "price": "Free",
+      "badge": "free sample",
+      "image": "/uploads/wildflower-wreath-thumb.jpg",
+      "file": "/uploads/wildflower-wreath-sample.pdf",
+      "button_label": "Download PDF",
+      "accent": "berry"
+    },
+    {
+      "title": "More designs coming soon",
+      "meta": "New pages added regularly",
+      "price": "",
+      "badge": "",
+      "image": "",
+      "file": "",
+      "button_label": "Coming soon",
+      "accent": "sky"
+    }
+  ]
+}
