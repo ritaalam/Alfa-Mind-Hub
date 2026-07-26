@@ -36,6 +36,14 @@
       "price": "Free",
       "file": "/uploads/pinterest-pin-free-8-.pdf",
       "image": "/uploads/pinterest-pin-free-1-.jpg"
+    },
+    {
+      "meta": "8.5×11 · single-page PDF",
+      "button_label": "Download PDF",
+      "accent": "berry",
+      "title": "PART 2",
+      "image": "/uploads/pinterest-pin-free.jpg",
+      "file": "/uploads/pinterest-pin-free-9-.pdf"
     }
   ]
 }
