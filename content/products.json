@@ -27,6 +27,15 @@
       "price": "Free",
       "image": "/uploads/pinterest-pin-free-1-.png",
       "file": "/uploads/self-esteem-pinterest-pin-15-ways-2-.pdf"
+    },
+    {
+      "meta": "8.5×11 · single-page PDF",
+      "button_label": "Download PDF",
+      "accent": "berry",
+      "title": "Woodland Classroom Kit",
+      "price": "Free",
+      "file": "/uploads/pinterest-pin-free-8-.pdf",
+      "image": "/uploads/pinterest-pin-free-1-.jpg"
     }
   ]
 }
